@@ -4,31 +4,31 @@ A modern, interactive web application for building and managing your personal vo
 
 ## Features
 
-### 🔍 **Smart Dictionary Search**
+### **Smart Dictionary Search**
 - Real-time word lookup using dictionary APIs
 - Phonetic pronunciation with audio playback
 - Multiple definitions and usage examples
 - Word of the day feature
 
-### 📚 **Personal Collection**
+### **Personal Collection**
 - Save words with definitions and examples
 - AI-powered categorization (difficulty, topic, word type)
 - Advanced filtering and search capabilities
 - Export your collection in multiple formats
 
-### 🧠 **Intelligent Learning**
+### **Intelligent Learning**
 - Spaced repetition system for effective memorization
 - Category-based review sessions
 - Progress tracking and difficulty adjustment
 - Personalized learning recommendations
 
-### 📊 **Analytics & Progress**
+### **Analytics & Progress**
 - Comprehensive learning statistics
 - Activity heatmaps and progress visualization
 - Performance insights and recommendations
 - Goal setting and tracking
 
-### 🔐 **User Authentication**
+### **User Authentication**
 - Gmail OAuth integration
 - Secure data storage per user
 - Cross-device synchronization
@@ -73,31 +73,9 @@ npm run dev
 
 ```bash
 npm run build
-```
+`
 
-## Project Structure
 
-```
-src/
-├── components/          # React components
-│   ├── LoginComponent.jsx
-│   ├── Header.jsx
-│   ├── SearchView.jsx
-│   ├── CollectionView.jsx
-│   ├── LearnView.jsx
-│   ├── ReviewModal.jsx
-│   └── StatsView.jsx
-├── services/           # API and service layers
-│   ├── authService.js
-│   ├── dictionaryAPI.js
-│   └── storageService.js
-├── utils/              # Utility functions
-│   ├── exportUtils.js
-│   └── dateUtils.js
-├── App.jsx             # Main application component
-├── main.jsx           # Application entry point
-└── index.css          # Global styles
-```
 
 ## Configuration
 
@@ -143,16 +121,3 @@ The app uses the free Dictionary API from dictionaryapi.dev. No API key required
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
-
-- Dictionary API provided by [dictionaryapi.dev](https://dictionaryapi.dev/)
-- Icons by [Lucide](https://lucide.dev/)
-- UI components styled with [Tailwind CSS](https://tailwindcss.com/)
-
-## Support
-
-If you encounter any issues or have questions, please [open an issue](https://github.com/yourusername/wordwise-dictionary/issues) on GitHub.
-
----
-
-Made with ❤️ for vocabulary enthusiasts and language learners worldwide.
